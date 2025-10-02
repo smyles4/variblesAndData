@@ -9,9 +9,10 @@
     - Extra: Make the corners rounded.
 */
 button {
-    font-size: 5px;
+    font-size: 16px;
     cursor: pointer;
     transition: transform 0.3s, background-color 0.3s, font-size 0.3s;
+    text-color
 }
 
 /* 
@@ -19,8 +20,8 @@ button {
     - Change the background color to Dark Magenta (#8B008B)
     - Set the font size to 18px
 */
-button:hover {
-    
+button:hover {background-color: #8B008B;
+    font-size: 18px;
 }
 
 button:active {
